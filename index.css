@@ -1,0 +1,16 @@
+div {
+    border-style:solid;
+    margin-left: 300px;
+    margin-right: 300px;
+    text-align: center;
+}
+
+body { 
+    text-align: center;
+}
+
+div {
+    display: grid;
+    grid-template-columns: 1fr, 2fr, 1fr;
+    grid-template-rows: repeat(100, 1fr);
+}
